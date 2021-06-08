@@ -72,7 +72,13 @@ class MemeGenerator:
         cbox = ttk.Combobox(self.root, textvariable=self.font_family ,values=[
             "arial",
             "impact",
-            "times"
+            "times",
+            "calibri",
+            "cambria",
+            "consolas",
+            "corbel",
+            "constantia",
+            "courier"
         ])
         cbox.grid(row=0, column=1, sticky=NW, pady=40)
         cbox.current(1)
